@@ -4,19 +4,21 @@
 
 A PCS cluster operates as a multi-layered stack designed to eliminate single points of failure (SPOF) within enterprise environments.
 
-+-------------------------------------------------------+
+```text
++---------------------------------------------+
 
-|                 Application / Service                 |
-+-------------------------------------------------------+
+|            Application / Service            |
++---------------------------------------------+
 
-|      Pacemaker (CRM - Cluster Resource Manager)       |
-+-------------------------------------------------------+
+| Pacemaker (CRM - Cluster Resource Manager)  |
++---------------------------------------------+
 
-|        Corosync (Messaging & Membership Layer)        |
-+-------------------------------------------------------+
+|   Corosync (Messaging & Membership Layer)   |
++---------------------------------------------+
 
-|          Linux OS (RHEL, Rocky, SLES, etc.)           |
-+-------------------------------------------------------+
+|     Linux OS (RHEL, Rocky, SLES, etc.)      |
++---------------------------------------------+
+```
 
 
 ### 1. Corosync (The Communication Layer)
